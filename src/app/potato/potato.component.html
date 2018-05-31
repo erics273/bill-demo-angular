@@ -1,0 +1,10 @@
+<p>
+  potato works! {{ title }}<br>
+  hello, {{someDude.name}} you are {{ someDude.age}} <input type="number" (change)="updateAge()" [(ngModel)]="someDude.age"> years old and your favorite color is {{someDude.favoriteColor}}
+  <br>
+  <input type="text" [(ngModel)]="title">
+  <br>
+  <input type="text" [ngModel]="title">
+  <br>
+  <button (click)="clickedButtonForParentStuff()">tell parent hello</button>
+</p>

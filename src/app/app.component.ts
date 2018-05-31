@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'eric';
+  childTitle = "fred";
+  person = {
+    name: "eric schwartz",
+    age: 36,
+    favoriteColor: "red"
+  }
+  listenToChild(data){
+    this.title = data
+  }
 }
+
+
